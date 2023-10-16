@@ -30,7 +30,8 @@ class _PanelRightPageState extends State<PanelRightPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: SingleChildScrollView(
+      /*
+        body: SingleChildScrollView(
         child: Column(
           children: [
             Padding(
@@ -66,7 +67,7 @@ class _PanelRightPageState extends State<PanelRightPage> {
                 ),
               ),
             ),
-            LineChartSample1(),
+            
             Padding(
               padding: const EdgeInsets.only(
                   right: Constants.kPadding / 2,
@@ -100,6 +101,8 @@ class _PanelRightPageState extends State<PanelRightPage> {
           ],
         ),
       ),
+      
+       */
     );
   }
 }

@@ -17,9 +17,10 @@ class _WidgetTreeState extends State<WidgetTree> {
   int currentIndex = 1;
 
   List<Widget> _icons = [
-    Icon(Icons.add, size: 30),
-    Icon(Icons.list, size: 30),
-    Icon(Icons.compare_arrows, size: 30),
+    Icon(Icons.home, size: 30),
+    Icon(Icons.receipt, size: 30),
+    Icon(Icons.settings, size: 30),
+    
   ];
 
   @override

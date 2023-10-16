@@ -62,11 +62,11 @@ class _PanelLeftPageState extends State<PanelLeftPage> {
                       child: ListTile(
                         //leading: Icon(Icons.shopping_basket),
                         title: Text(
-                          "Products Sold",
+                          "Gastos",
                           style: TextStyle(color: Colors.white),
                         ),
                         subtitle: Text(
-                          "18% of Products Sold",
+                          "18% de Gastos",
                           style: TextStyle(color: Colors.white),
                         ),
                         trailing: Chip(
@@ -81,36 +81,8 @@ class _PanelLeftPageState extends State<PanelLeftPage> {
                 ),
                 LineChartSample2(),
                 PieChartSample2(),
-                Padding(
-                  padding: const EdgeInsets.only(
-                      right: Constants.kPadding / 2,
-                      bottom: Constants.kPadding,
-                      top: Constants.kPadding,
-                      left: Constants.kPadding / 2),
-                  child: Card(
-                    color: Constants.purpleLight,
-                    elevation: 3,
-                    shape: RoundedRectangleBorder(
-                        borderRadius: BorderRadius.circular(20)),
-                    child: Column(
-                      children: List.generate(
-                        _todos.length,
-                        (index) => CheckboxListTile(
-                          title: Text(
-                            _todos[index].name,
-                            style: TextStyle(color: Colors.white),
-                          ),
-                          value: _todos[index].enable,
-                          onChanged: (newValue) {
-                            setState(() {
-                              _todos[index].enable = newValue ?? true;
-                            });
-                          },
-                        ),
-                      ),
-                    ),
-                  ),
-                ),
+                BarChartSample2(),
+                LineChartSample1(),
               ],
             ),
           ),

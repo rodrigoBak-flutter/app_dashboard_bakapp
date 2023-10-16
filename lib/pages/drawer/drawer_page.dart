@@ -20,14 +20,14 @@ class Task {
 int _currentIndex = 0;
 
 List<ButtonsInfo> _buttonNames = [
-  ButtonsInfo(title: "Home", icon: Icons.home),
-  ButtonsInfo(title: "Setting", icon: Icons.settings),
+  ButtonsInfo(title: "Inicio", icon: Icons.home),
+  ButtonsInfo(title: "Ajustes", icon: Icons.settings),
   ButtonsInfo(title: "Notifications", icon: Icons.notifications),
-  ButtonsInfo(title: "Contacts", icon: Icons.contact_phone_rounded),
-  ButtonsInfo(title: "Sales", icon: Icons.sell),
-  ButtonsInfo(title: "Marketing", icon: Icons.mark_email_read),
-  ButtonsInfo(title: "Security", icon: Icons.verified_user),
-  ButtonsInfo(title: "Users", icon: Icons.supervised_user_circle_rounded),
+  ButtonsInfo(title: "Clientes", icon: Icons.contact_phone_rounded),
+  ButtonsInfo(title: "Suscripcion", icon: Icons.sell),
+  ButtonsInfo(title: "Correo", icon: Icons.mark_email_read),
+  ButtonsInfo(title: "Seguridad", icon: Icons.verified_user),
+  ButtonsInfo(title: "Usuarios", icon: Icons.supervised_user_circle_rounded),
 ];
 
 class DrawerPage extends StatefulWidget {
@@ -47,7 +47,7 @@ class _DrawerPageState extends State<DrawerPage> {
             children: [
               ListTile(
                 title: Text(
-                  "Admin Menu",
+                  "Menu",
                   style: TextStyle(
                     color: Colors.white,
                   ),

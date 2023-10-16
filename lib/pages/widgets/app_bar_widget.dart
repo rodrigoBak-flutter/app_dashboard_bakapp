@@ -2,7 +2,7 @@ import 'package:app_dashboar_bakapp/constants.dart';
 import 'package:app_dashboar_bakapp/responsive_layout.dart';
 import 'package:flutter/material.dart';
 
-List<String> _buttonNames = ["Overview", "Revenue", "Sales", "Control"];
+List<String> _buttonNames = ["", "Revenue", "Sales", "Control"];
 int _currentSelectedButton = 0;
 
 class AppBarWidget extends StatefulWidget {

@@ -25,7 +25,10 @@ class PanelCenterPage extends StatelessWidget {
       Person(name: "Haley Mellor", color: Color(0xffff5182)),
       Person(name: "Harlen Higgins", color: Color(0xff13d38e)),
     ];
-    return SingleChildScrollView(
+
+    return Container();
+    /*
+     return SingleChildScrollView(
       child: Column(
         children: [
           Padding(
@@ -61,7 +64,7 @@ class PanelCenterPage extends StatelessWidget {
               ),
             ),
           ),
-          BarChartSample2(),
+          
           Padding(
             padding: const EdgeInsets.only(
                 top: Constants.kPadding,
@@ -103,5 +106,6 @@ class PanelCenterPage extends StatelessWidget {
         ],
       ),
     );
+     */
   }
 }
